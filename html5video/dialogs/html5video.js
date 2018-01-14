@@ -90,7 +90,7 @@ CKEDITOR.dialog.add( 'html5video', function( editor ) {
                     commit: function( widget ) {
                         widget.setData( 'height', this.getValue() );
                     }
-                },
+                }
                 ]
             },
 
